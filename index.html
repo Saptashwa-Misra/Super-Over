@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Over</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col">
+            <img class="profile-icon" src="Assets/Cricket_India.png" height="150px" width="150px" alt="IndiaLogo_BCCI">
+            <span class="name" id="team-1"></span>
+            <div class="row round-runs" id="team-1-round-runs">
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row score">
+                <span id="team-1-score"></span>
+                <span>-</span>
+                <span" id="team-2-score"></span>
+            </div>
+        </div>
+        <div class="col">
+            <img class="profile-icon" src="Assets/Cricket_Australia.png" height="150px" width="150px"  alt="AustraliaLogo_CA">
+            <span class="name" id="team-2"></span>
+            <div class="row round-runs" id="team-2-round-runs">
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+            </div>
+        </div>
+</div>
+    <div class="row">
+        <button id="striker-button" onclick="ButtonClick()" ></button>
+    </div>
+    <div class="row" id="result" hidden></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
